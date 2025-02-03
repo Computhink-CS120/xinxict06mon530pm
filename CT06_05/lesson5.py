@@ -303,7 +303,7 @@
 
 name=input("what is your name")
 for abc in name:
-    print("give me a"+abc)
+    print("give me a "+abc)
 
 print("what do we have")
 print(name+" is the best")
