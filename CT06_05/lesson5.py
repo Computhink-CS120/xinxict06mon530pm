@@ -305,7 +305,7 @@ name=input("what is your name")
 for abc in name:
     print(abc)
 
-
+print("what ")
 
 
 
