@@ -183,13 +183,13 @@ space=(" ")
 # print("\nHere is your birthday message:\n")
 # print(birthday_message)
 # Get the user's age
-age = int(input("Enter your age: "))
+# age = int(input("Enter your age: "))
 
-# Check if the age is above 21
-if age > 21:
-    print("You are okay.")
-else:
-    print("No.")
+# # Check if the age is above 21
+# if age > 21:
+#     print("You are okay.")
+# else:
+#     print("No.")
 
 
 
