@@ -172,17 +172,24 @@ space=(" ")
 
 
 # Get input from the user
-age = input("Enter the age they are turning this year: ")
-name = input("Enter the name of the birthday person: ")
-message = input("Enter your personal message for them: ")
+# age = input("Enter the age they are turning this year: ")
+# name = input("Enter the name of the birthday person: ")
+# message = input("Enter your personal message for them: ")
 
-# Construct the birthday message without the brackets
-birthday_message = f"happy {age}th birthday {name}! {message}"
+# # Construct the birthday message without the brackets
+# birthday_message = f"happy {age}th birthday {name}! {message}"
 
-# Print out the final message
-print("\nHere is your birthday message:\n")
-print(birthday_message)
+# # Print out the final message
+# print("\nHere is your birthday message:\n")
+# print(birthday_message)
+# Get the user's age
+age = int(input("Enter your age: "))
 
+# Check if the age is above 21
+if age > 21:
+    print("You are okay.")
+else:
+    print("No.")
 
 
 
