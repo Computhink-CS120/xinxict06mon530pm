@@ -1,5 +1,5 @@
 # Lesson 5 - Introduction to For Loop and range()
-spaec=(" ")
+sp=(" ")
 # ## Recap 1: Automated Birthday Invitation
 
 # You run a small business that creates personalized digital
