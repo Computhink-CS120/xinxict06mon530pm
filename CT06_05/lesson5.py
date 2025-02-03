@@ -170,17 +170,18 @@ space=(" ")
 # name=input("wat is your name?")
 # print("user"+space+name+space+"is"+space+age+space+"years old")
 
+
+# Get input from the user
 age = input("Enter the age they are turning this year: ")
 name = input("Enter the name of the birthday person: ")
 message = input("Enter your personal message for them: ")
 
-# Construct the birthday message in the desired format
-birthday_message = f"happy({age})th birthday({name})!({message})"
+# Construct the birthday message without the brackets
+birthday_message = f"happy {age}th birthday {name}! {message}"
 
 # Print out the final message
 print("\nHere is your birthday message:\n")
 print(birthday_message)
-
 
 
 
