@@ -298,5 +298,5 @@
 #     game_loop()   
 
 
-for count in range(100):
+for count in range(10000):
     print("I will buy pizza")
