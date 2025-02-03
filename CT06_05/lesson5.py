@@ -164,7 +164,7 @@
 #     36
 #     45
 fname=input("your first name")
-lname=input
+lname=input("your last na,e")
 
 
 
