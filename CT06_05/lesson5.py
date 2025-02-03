@@ -295,6 +295,6 @@ def game_loop():
 
 # Start the game
 if __name__ == "__main__":
-    game_loop()
+    game_loop()   
 
 
