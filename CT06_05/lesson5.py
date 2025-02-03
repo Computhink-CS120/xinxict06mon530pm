@@ -190,6 +190,111 @@ space=(" ")
 #     print("You are okay.")
 # else:
 #     print("No.")
+import os
+import random
+import time
+import sys
 
+# Game settings
+SCREEN_WIDTH = 30
+SCREEN_HEIGHT = 10
+PIPE_WIDTH = 5
+BIRD_CHAR = "O"
+PIPE_CHAR = "#"
+BACKGROUND_CHAR = "."
+
+# Initialize the game state
+bird_pos = SCREEN_HEIGHT // 2  # Bird starts in the middle
+bird_velocity = 0
+gravity = 1
+jump_strength = -2
+pipe_gap = 3
+pipe_x = SCREEN_WIDTH
+score = 0
+game_over = False
+
+def clear_screen():
+    """Clears the console screen"""
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+def draw_screen():
+    """Draws the game screen"""
+    global bird_pos, pipe_x, pipe_gap
+
+    # Create the game screen as a list of lists
+    screen = [[BACKGROUND_CHAR] * SCREEN_WIDTH for _ in range(SCREEN_HEIGHT)]
+
+    # Draw the bird
+    screen[bird_pos][2] = BIRD_CHAR
+
+    # Draw pipes
+    pipe_top = random.randint(1, SCREEN_HEIGHT - pipe_gap - 1)
+    for y in range(SCREEN_HEIGHT):
+        if y < pipe_top or y >= pipe_top + pipe_gap:
+            if pipe_x < SCREEN_WIDTH:
+                screen[y][pipe_x] = PIPE_CHAR
+
+    # Print the screen
+    for row in screen:
+        print("".join(row))
+
+    print(f"Score: {score}")
+
+def update_game():
+    """Update the game state, including bird movement and pipe movement"""
+    global bird_pos, bird_velocity, pipe_x, score, game_over
+
+    # Bird gravity and movement
+    bird_velocity += gravity
+    bird_pos += bird_velocity
+
+    # Prevent bird from going out of bounds (top/bottom of screen)
+    if bird_pos < 0:
+        bird_pos = 0
+        bird_velocity = 0
+    if bird_pos >= SCREEN_HEIGHT:
+        bird_pos = SCREEN_HEIGHT - 1
+        bird_velocity = 0
+
+    # Move the pipe to the left
+    pipe_x -= 1
+    if pipe_x < 0:
+        pipe_x = SCREEN_WIDTH
+        score += 1  # Increase score when pipe goes off screen
+
+    # Check for collision
+    pipe_top = random.randint(1, SCREEN_HEIGHT - pipe_gap - 1)
+    for y in range(SCREEN_HEIGHT):
+        if pipe_x == 2 and (y < pipe_top or y >= pipe_top + pipe_gap):
+            if y == bird_pos:
+                game_over = True
+
+def game_loop():
+    """Runs the main game loop"""
+    global game_over
+
+    while not game_over:
+        clear_screen()
+        draw_screen()
+
+        # Get user input (check for spacebar or Enter key)
+        input_key = input("Press Enter to Jump (or q to quit): ")
+        if input_key.lower() == "q":
+            break
+        if input_key == "":
+            bird_velocity = jump_strength  # Make the bird jump
+
+        # Update the game
+        update_game()
+
+        # Delay to control game speed
+        time.sleep(0.1)
+
+    print("\nGame Over!")
+    print(f"Final Score: {score}")
+
+# Start the game
+if __name__ == "__main__":
+    game_loop()
 
 
