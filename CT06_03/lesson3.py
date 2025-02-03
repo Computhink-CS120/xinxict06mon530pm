@@ -1,1 +1,17 @@
-print("Hello from lesson 3")
+print (100/4)
+
+
+print((3+4)*5-(10/2))
+
+
+
+
+
+
+
+
+
+
+
+
+
