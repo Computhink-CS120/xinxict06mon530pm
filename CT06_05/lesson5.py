@@ -163,9 +163,9 @@ space=(" ")
 #     28
 #     36
 #     45
-fname=input("your first name")
-lname=input("your last name")
-print(fname+space+lname)
+# fname=input("your first name")
+# lname=input("your last name")
+# print(fname+space+lname)
 
 
 
