@@ -168,7 +168,7 @@ space=(" ")
 # print(fname+space+lname)
 age=input("what is your age?")
 name=input("wat is your name?")
-print("user de"+space+name+"is"+space+age)
+print("user de"+space+name+"is"+space+age+"years old")
 
 
 
