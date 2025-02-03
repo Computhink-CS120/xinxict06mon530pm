@@ -163,4 +163,4 @@
 #     28
 #     36
 #     45
-fname=input
+fname=input("")
