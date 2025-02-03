@@ -301,8 +301,8 @@
 # for count in range(10000):
 #     print("I will buy pizza")
 
-name=("what is your name")
-
+name=input("what is your name")
+for abc in name:name
 
 
 
