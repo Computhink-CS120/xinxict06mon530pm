@@ -302,8 +302,8 @@
 #     print("I will buy pizza")
 
 name=input("what is your name")
-for abc in name:name
-
+for abc in name:
+    print(abc)
 
 
 
