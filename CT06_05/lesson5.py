@@ -165,7 +165,7 @@ space=(" ")
 #     45
 fname=input("your first name")
 lname=input("your last name")
-print(fname+lname)
+print(fname+space+lname)
 
 
 
