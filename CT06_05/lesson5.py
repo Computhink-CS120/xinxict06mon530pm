@@ -306,7 +306,7 @@ for abc in name:
     print(abc)
 
 print("what do we have")
-print(name+"")
+print(name+" is the best")
 
 
 
