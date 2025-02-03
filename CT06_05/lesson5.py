@@ -301,12 +301,12 @@
 # for count in range(10000):
 #     print("I will buy pizza")
 
-name=input("what is your name")
-for abc in name:
-    print("give me a "+abc)
+# name=input("what is your name")
+# for abc in name:
+#     print("give me a "+abc)
 
-print("what do we have")
-print(name+" is the best")
+# print("what do we have")
+# print(name+" is the best")
 
 
 
