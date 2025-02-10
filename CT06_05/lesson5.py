@@ -1,4 +1,4 @@
-# # Lesson 5 - Introduction to For Loop and range()
+# # Lesson 5 - Introduction to For Loop and range()z
 # space=(" ")
 # # ## Recap 1: Automated Birthday Invitation
 
