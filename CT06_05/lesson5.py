@@ -306,10 +306,10 @@
 #     print("give me a "+abc)
 
 # print("what do we have")
-# print(name+" is the best")
-for task in range(100):
-    print("I like air")
-    print("give me more")
+# # print(name+" is the best")
+# for task in range(100):
+#     print("I like air")
+#     print("give me more")
 
 
 
