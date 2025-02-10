@@ -294,7 +294,8 @@
 #     print(f"Final Score: {score}")
 
 # # Start the game
-# if __name__ == "__main__":
+# if __name__ == "__main__":qwerty
+
 #     game_loop()   
 
 
@@ -319,7 +320,6 @@ for number in range(457):
          print(number)
 for number in range(457):
              print(number)
-qwerty
 
 
 
