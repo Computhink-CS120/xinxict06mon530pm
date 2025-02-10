@@ -320,18 +320,28 @@
 #          print(number)
 # for number in range(457):
 #              print(number)
-for number in range (51,101):
-     print(number)
+# for number in range (51,101):
+#      print(number)
+# for number in range (step,2):
+#      print (number)
+# # Task 6: range(start, stop, step)
 
-
-
-
-
-
-
-
-
-
+# **Task 6a**:
+# Use a 'for' loop to print numbers from 2 to 24 in multiples of 2.
+# for num in range(2,25,2):
+#     print(num)
+# **Task 6b**:
+# Use a 'for' loop to print numbers from 8 to 96 in multiples of 8.
+# for num in range(8,97,8):
+#     print(num)
+# **Task 6c**:
+# Use a 'for' loop to print numbers from 5 to 1 in descending order.
+# for num in range (10,0,1):
+#     print(num)
+# a=input("start")
+# a=int(a)
+# b=input("stop")
+# b=int(b)
 
 
 
