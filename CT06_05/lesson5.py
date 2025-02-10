@@ -310,7 +310,7 @@
 # for task in range(100):
 #     print("I like air")
 #     print("give me more")
-for number in range(5):
+for number in range(600):
     print(number)
 
 
