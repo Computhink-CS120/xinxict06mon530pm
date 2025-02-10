@@ -308,7 +308,7 @@
 # print("what do we have")
 # print(name+" is the best")
 for task in range(100):
-    print("I like cake")
+    print("I like ")
     print("give me more")
 
 
