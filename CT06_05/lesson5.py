@@ -342,7 +342,7 @@
 # a=int(a)
 # b=input("stop")
 b=int(input("how many students do you have?"))
-for b in range():
+for q in range(b):
     print("how much does this sutudent have?")
 
 
