@@ -345,7 +345,7 @@ b=int(input("how many students do you have?"))
 for q in range(b):
     score=int(input("how much does this sutudent have?"))
     sumscore=sumscore+score
-print ()
+print ("the average")
 
 
 
