@@ -382,7 +382,7 @@ year = 2025
 print("The year is " + str(year))
 
 
-x = "10"
+x = 10
 y = x / 2
 
 
