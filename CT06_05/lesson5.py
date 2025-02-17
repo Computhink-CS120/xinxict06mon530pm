@@ -343,7 +343,8 @@
 # b=input("stop")
 # b=int(b)
 numstudents=input("how many students do you have?")
-
+for range in numstudents:
+    print()
 
 
 
