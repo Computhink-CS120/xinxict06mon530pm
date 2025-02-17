@@ -354,18 +354,18 @@
 #     print(i)
 
 # print(hello, World!")
-age=1
-print(age)
+# age=1
+# print(age)
 
 
-name = "Alice"
-print(name)
-x = 5
-print(x)
+# name = "Alice"
+# print(name)
+# x = 5
+# print(x)
 
 
 
-print("Hello, World!")
+# print("Hello, World!")
 
 
 
