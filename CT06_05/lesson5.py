@@ -344,7 +344,7 @@
 b=int(input("how many students do you have?"))
 for q in range(b):
     int(input("how much does this sutudent have?"))
-
+    sum
 
 
 
