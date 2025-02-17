@@ -342,7 +342,7 @@
 # a=int(a)
 # b=input("stop")
 # b=int(b)
-numstudents=input
+numstudents=input()
 
 
 
