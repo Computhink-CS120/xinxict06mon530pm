@@ -347,7 +347,7 @@
 #     t =t+score
 # print ("the average score is "+)
 # t/b
-
+foe
 
 
 
