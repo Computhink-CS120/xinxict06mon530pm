@@ -348,7 +348,8 @@
 # print ("the average score is "+)
 # t/b
 # for i in range(3):
-#     print("Hello, World!")
+#     printfor i in range(5):
+print(i)("Hello, World!")
 
 
 
