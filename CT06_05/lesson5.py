@@ -355,6 +355,17 @@
 
 # print(hello, World!")
 
+print(age)
+
+
+name = "Alice"
+print(nam)
+
+print(x)
+x = 5
+
+
+pint("Hello, World!")
 
 
 
