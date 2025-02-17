@@ -340,7 +340,7 @@
 #     print(num)
 # a=input("start")
 # a=int(a)
-# b=input("stop")
+sumscore
 b=int(input("how many students do you have?"))
 for q in range(b):
     score=int(input("how much does this sutudent have?"))
