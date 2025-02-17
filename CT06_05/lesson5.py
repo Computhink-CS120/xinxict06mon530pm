@@ -354,7 +354,7 @@
 #     print(i)
 
 # print(hello, World!")
-
+age=1
 print(age)
 
 
