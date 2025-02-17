@@ -379,7 +379,7 @@ print("Repeat" * 3)
 
 
 year = 2025
-print("The year is " + year)
+print("The year is " + str(year))
 
 
 x = "10"
