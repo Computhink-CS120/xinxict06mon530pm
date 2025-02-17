@@ -367,7 +367,7 @@
 
 # print("Hello, World!")
 
-age = "25"
+age = 25
 print(age + 1)
 
 
