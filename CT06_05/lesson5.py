@@ -367,7 +367,23 @@
 
 # print("Hello, World!")
 
+age = "25"
+print(age + 1)
 
+
+number = 10
+print(number - "5")
+
+
+print("Repeat" * "3")
+
+
+year = 2023
+print("The year is " + year)
+
+
+x = "10"
+y = x / 2
 
 
 
