@@ -359,7 +359,7 @@ print(age)
 
 
 name = "Alice"
-print(nam)
+print(name)
 
 print(x)
 x = 5
