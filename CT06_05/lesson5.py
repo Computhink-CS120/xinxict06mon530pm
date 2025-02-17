@@ -360,12 +360,12 @@ print(age)
 
 name = "Alice"
 print(name)
-
-print(x)
 x = 5
+print(x)
 
 
-pint("Hello, World!")
+
+print("Hello, World!")
 
 
 
