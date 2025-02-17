@@ -342,7 +342,7 @@
 # a=int(a)
 # b=input("stop")
 # b=int(b)
-numstudents=input(print("how many students do you have?"))
+numstudents=input("how many students do you have?")
 
 
 
