@@ -375,7 +375,7 @@ number = 10
 print(number - 5)
 
 
-print("Repeat" * "3")
+print("Repeat" * 3)
 
 
 year = 2023
