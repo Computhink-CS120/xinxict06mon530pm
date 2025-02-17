@@ -344,7 +344,7 @@
 # b=int(b)
 numstudents=input("how many students do you have?")
 for range in numstudents:
-    print("how much does this sutudent")
+    print("how much does this sutudent have?")
 
 
 
