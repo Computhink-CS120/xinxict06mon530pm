@@ -367,38 +367,50 @@
 
 # print("Hello, World!")
 
-age = 25
-print(age + 1)
+# age = 25
+# print(age + 1)
 
 
-number = 10
-print(number - 5)
+# number = 10
+# print(number - 5)
 
 
-print("Repeat" * 3)
+# 
+
+# year = 2025
+# print("The year is " + str(year))
 
 
-year = 2025
-print("The year is " + str(year))
+# x = 10
+# y = x / 2
+
+# scoretwo = 90
+# score_three = 75
+
+# total = score_one + score_two + score_three
+
+# average_score = total / 3
+
+# student_name = "Alex"
+
+# print("Average score for " + str(student_name) + " is: " + str(average_score))
+# a=input("what word do you want to print?")
+# b=input("how many times do you want to repeat?")
 
 
-x = 10
-y = x / 2
+# for count in range(int(b)):
+#     print(a)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# a=input("what is your name?")
+# b=input("how many times do you want to repeat?")
+    
+# for count in range(int(b)):
+#      print("nice to meet you, "+a)        
+# num=0
+# for count in range(5):
+#     qwerty=input("type in a number")
+#     num=num+int(qwerty)
+# print("the sum of the numbers is "+str(num))
 
 
 
