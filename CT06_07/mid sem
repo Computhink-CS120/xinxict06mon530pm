@@ -1,0 +1,46 @@
+# #start by asking the user for end,start,increment and put those all into a range loop using variables
+# start=input("what is the starting number?")
+# end=input("what is the ending the number?")
+# increment=input("waht is the increment?")
+# for count in range(int(start),int(end),int(increment)):
+#     print(count)
+
+# two-apples=2
+
+# x='1'
+# c='2'
+# print(x+c)
+# a="1"           
+# b=30
+# print(a+b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
