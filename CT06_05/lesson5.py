@@ -420,9 +420,9 @@
 
 # print("liftoff")
 
-import random 
+# import random 
 
-num = random.randint(2,4)
+# num = random.randint(2,4)
 
 
 
