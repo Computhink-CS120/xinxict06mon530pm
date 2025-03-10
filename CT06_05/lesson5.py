@@ -418,9 +418,7 @@
 #     print(i)
 #     time.sleep(1)
 
-# print("liftoff")
-
-# import random 
+import random 
 
 # num = random.randint(2,4)
 
