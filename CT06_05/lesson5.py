@@ -428,7 +428,7 @@ num2= random.randint(1,50)
 
 qustion = "what is" + str(num1)+"+"+str(num2)+"?"
 answer=int(input(qustion))
-hiddenans=
+hiddenans=num1+mun2
 
 
 
