@@ -423,8 +423,8 @@ import random
 # num = random.randint(2,4)
 
 
-num1= random.randint(1,)
-
+num1= random.randint(1,50)
+num1= random.randint(1,50)
 
 
 
