@@ -423,7 +423,7 @@ import random
 # num = random.randint(2,4)
 
 
-num1= random
+num1= random.randint(1,)
 
 
 
