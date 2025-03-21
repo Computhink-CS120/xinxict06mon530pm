@@ -434,7 +434,7 @@ print(answer==hiddenans)
 if answer==hiddenans:
     print("true")
 else:
-    print
+    print("false")
 
 
 
