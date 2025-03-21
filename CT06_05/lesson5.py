@@ -430,7 +430,7 @@ qustion = "what is" + str(num1)+"+"+str(num2)+"?"
 answer=int(input(qustion))
 hiddenans=num1+num2
 
-print()
+print(answer==hiddenans)
 
 
 
