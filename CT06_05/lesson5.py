@@ -426,7 +426,7 @@ import random
 num1= random.randint(1,50)
 num2= random.randint(1,50)
 
-qustion = "WHAT IS" + STR(num1)+"+"+str(num2)+"?"
+qustion = "what is" + str(num1)+"+"+str(num2)+"?"
 
 
 
